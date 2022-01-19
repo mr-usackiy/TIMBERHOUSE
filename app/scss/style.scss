@@ -1,10 +1,22 @@
+body{
+font-family: roboto;
+font-weight: regular;
+
+}
+.container{
+    max-width: 1030px;
+    padding: 0px 15px 0px 15px;
+    margin: 0 auto;
+}
+
+
 
 .header{
-    
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding-top: 110px;
 }
 .header__inner {
     box-sizing: border-box;
@@ -15,20 +27,21 @@
     border-radius: 50%;
     border: 10px solid #f4d4a5;
     background-color: #fff;
+    margin-left: 110px;
 }
 .header__name {
-    padding: 12px 0px 40px 0px;
+    padding: 12px 0px 30px 0px;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 35px;
     color:#bf4200
 }
 .phone{
     font-family: lato;
-    font-weight: 700;
+    font-weight: lite;
     color: black;
-    font-size: 30px;
+    font-size: 35px;
     text-decoration: none;
     display: inline-block;
 }
@@ -36,11 +49,112 @@
     margin: 0 auto;
     color: #1fad26;
     text-transform: uppercase;
-    font-size:46px;
+    font-size:50px;
     font-family: 'lato', sans-serif;
-    font-weight: normal;
-    padding-top: 40px;
-    width: 370px;
-    padding-bottom: 45px;
-    line-height: 1.5em;
+    font-weight: bolder;
+    padding-top: 45px;
+    width: 420px;
+    line-height: normal;
+}
+.header__sale{
+    margin-top: 40px;
+}
+.main{
+    text-align: center;
+    padding-top: 60px;
+}
+.footer{
+    text-align: center;
+        a{
+            font-weight: bold;
+            font-size: 50px;
+        }
+}
+.main__title {
+    margin-bottom: 60px;
+    color: #d07a2d;
+    font-size: 41px;
+    font-family: roboto;
+    font-weight: regular;
+}
+.main__text {
+    font-size: 30px;
+    font-weight: 300;
+  
+}
+.main__img {
+    padding: 90px 0px;
+}
+.project__title {
+    font-size: 41px;
+    font-weight: 700;
+    color: #d0662d;
+    margin-bottom: 120px;
+}
+.project__name {
+    font-size: 32px;
+    font-weight: bold;
+}
+.project__size {
+    font-size: 25px;
+}
+.project__area {
+    font-size: 25px;
+}
+.project__price {
+    font-size: 25px;
+    color: #17753b;
+    margin-bottom: 30px;
+}
+.download{
+    background-color: #f1dfbc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 123px;
+        .download__btn{
+            width: 594px;
+            margin: 0 auto;
+            border: 5px solid #effd15;
+            background-color: #17753b;
+            margin-bottom: 36px;
+            height: 85px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img{
+            padding-top: 40px;
+        }
+        a{
+            font-size: 32px;
+            color: white;
+            text-decoration: none;
+            border-bottom: 2px solid rgb(255, 255, 255);
+        }
+}
+
+
+
+.gallery__inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery__title {
+    font-size: 41px;
+    font-weight: bold;
+    color: #d07a2d;
+    margin-bottom: 52px;
+}
+.gallery__text{
+    font-size: 25px;
+    margin-bottom: 62px;
+}
+.footer__email{
+    margin: 90px 0px 195px 0px;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: underline;
+    color: #2f8bc5;
 }
